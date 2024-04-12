@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body{
+  width: 100%;
+  height: 100%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  
+}
+
+#card{
+width: 90%;
+max-width: 380px;
+height: 500px;
+background-image: linear-gradient(270deg, rgb(21, 36, 77),rgb(80, 102, 139));
+color: black;
+text-align: center;
+border-radius: 30px;
+padding: 20px;
+position: relative;
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    width: 100%;
+
+}
+.search input{
+    padding: 10px 30px;
+    outline: 0;
+    border: o;
+    border-radius: 20px;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.search img{
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    outline: 0;
+    border: 1px solid #000;
+    border-radius: 30px;
+    padding: 12px;
+    cursor: pointer;
+}
+.weather h3{
+    font-size: 40px;
+}
+.weather{
+    display: none;
+}
+.bottom{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.col{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.col img{
+    width: 45px;
+    height: 45px;
+}
+.data h4 ,p{
+    font-size: 20px;
+    text-align: start;
+    color: #f3e6e6;
+}
+
+#desc{
+  position: absolute;
+  top: 50%;
+}

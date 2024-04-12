@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <style>
+        body{
+            background-image: url(./images/bgimg.jpg);
+            height: 100vh;
+            width: 100vh;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+ <marquee style="position: absolute; top: 10%;"direction="left">This is Created by Swaraj Thakur!!</marquee>
+    <div id="card">
+        <div class="search">
+            <input id="input" type="text" placeholder="enter city name" spellcheck="true">
+            <img id="button" src="./images/search.png" alt="">
+            <h2 id="desc">Welcome to Weather App, Please Enter City Name.. </h2>
+        </div>
+        <div class="weather">
+           
+            <img id="weatherIcon" src="./images/drizzle.png" alt="">
+            <h1 id="celcius">22°C</h1>
+            <h3 id="city">NewYork</h3>
+       
+        <div class="bottom">
+            <div class="col">
+                <div class="image">
+                    <img src="./images/humidity.png" alt="">
+                </div>
+              <div class="data">
+                <h4 id="humidity">50%</h4>
+                <p>humidity</p>
+              </div>
+            </div>
+
+            <div class="col">
+                <div class="image">
+                    <img src="./images/wind.png" alt="">
+                </div>
+                <div class="data">
+                    <h4 id="wind">50km/h</h4>
+                <p>wind</p>
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
